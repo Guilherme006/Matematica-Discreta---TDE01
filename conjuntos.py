@@ -33,7 +33,7 @@ def ConjuntoOperacoes(nome_arquivo):
         else:
             resultado_conjuntos = ', '.join(str(elemento) for elemento in sorted(resultado))
         
-        resultados.append(f"{nome_conjunto}: conjunto 1 {{{', '.join(sorted(conjunto_01))}}}, conjunto 2 {{{', '.join(sorted(conjunto_02))}}}. Resultado: {{{resultado_conjuntos}}}")
+        resultados.append(f"{nome_conjunto}: conjunto 1 {{{', '.join(sorted(conjunto_01))}}}, conjunto 2 {{{', '.join(sorted(conjunto_02))}}}. Resultado: {{{resultado_conjuntos}}}\n")
 
         inicio += 3
 
