@@ -8,7 +8,7 @@ Foi desenvolvido para processar um arquivo de texto (.txt) que contém diversos 
 
 **2.** Linhas seguintes: Cada operação é descrita por um bloco de três linhas, sempre seguindo a mesma estrutura:
 - Linha 1: Código da operação, que pode ser:
- - U para união
+  --U para união
  - I para interseção
  - D para diferença
  - C para produto cartesiano
@@ -17,7 +17,8 @@ Foi desenvolvido para processar um arquivo de texto (.txt) que contém diversos 
 ### Instalação
 
 1. Clone o repositório:
-   sh```git clone https://github.com/Guilherme006/Matematica-Discreta---TDE01.git
+   ```sh
+   git clone https://github.com/Guilherme006/Matematica-Discreta---TDE01.git
    ```
    
 2. Faça upload dos arquivos que deseja ler e insira o nome no final do código
