@@ -7,11 +7,13 @@ Foi desenvolvido para processar um arquivo de texto (.txt) que contém diversos 
 **1.** Primeira linha: Um número inteiro que indica a quantidade de operações descritas no arquivo.
 
 **2.** Linhas seguintes: Cada operação é descrita por um bloco de três linhas, sempre seguindo a mesma estrutura:
+
 - Linha 1: Código da operação, que pode ser:
-  --U para união
+ - U para união
  - I para interseção
  - D para diferença
  - C para produto cartesiano
+   
 - Linhas 2 e 3: Conjuntos de elementos separados por vírgulas, sobre os quais a operação será realizada.
 
 ### Instalação
